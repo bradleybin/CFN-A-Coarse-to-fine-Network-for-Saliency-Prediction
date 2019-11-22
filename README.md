@@ -23,9 +23,9 @@ We built two different versions of our model: one based on the SALICON and the o
 
 ### 1. Download Pretrained Models
 
-Download one of the following pretrained models and save it in the checkpoint folder:
-* First version based on SALICON : **(https://github.com/marcellacornia/sam/releases/download/1.0/sam-vgg_salicon_weights.pkl)**
-* Second version based on MIT1003 : **(https://github.com/marcellacornia/sam/releases/download/1.0/sam-vgg_salicon_weights.pkl)**
+Download one of the following pretrained models and save it in the ```"checkpoint"``` folder:
+* First version based on SALICON : **(https://drive.google.com/open?id=1HLmf977fljTF15__j08FK-s464ljtGqT)**
+* Second version based on MIT1003 : **(https://drive.google.com/open?id=1DHhoaJh4mY-1QeVet7LeVJsa0htcVX1-)**
 
 ### 2. Predict Saliency Maps
 
@@ -39,7 +39,7 @@ For example
 ```
 python demo.py salicon salicon_images
 ```
-The predicted saliency maps will in the output folder
+The predicted saliency maps will in the ```"output"``` folder
 
 
 #### To compute saliency maps for the MIT1003, MIT300, SUN500, OSIE, and Toronto datasets:
@@ -52,7 +52,7 @@ For example
 ```
 python demo.py mit mit_images
 ```
-The predicted saliency maps will in the output folder
+The predicted saliency maps will in the ```"output"``` folder
 
 
 
