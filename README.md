@@ -13,9 +13,9 @@ This Python script demonstrates the usage of our proposed CFN for saliency predi
 ## Source Code
 
 - demo.py:                             demonstrates the usage of this package. 
-- models.py                            Fine perceiving network. 
-- NASNET_conv.py                       Coarse perceiving network.
-- utils.py                             Padding and data-download functions.
+- models.py:                            Fine perceiving network. 
+- NASNET_conv.py:                       Coarse perceiving network.
+- utils.py:                             Padding and data-download functions.
 
 ## Usage
 
